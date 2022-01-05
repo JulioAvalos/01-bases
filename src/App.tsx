@@ -1,9 +1,9 @@
+import { Counter } from './bases/Counter';
 
 function App() {
   return (
     <>
-     React
-     <hr />
+      <Counter />
     </>
   );
 }
