@@ -26,7 +26,7 @@ export const useCounter = ({ maxCounter = 10 }) => {
     if (counter < maxCounter) return;
 
     tl.current.play(0);
-  }, [counter]);
+  }, [counter, maxCounter]);
 
   return {
     counter,
